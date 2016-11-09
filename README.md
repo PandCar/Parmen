@@ -1,5 +1,3 @@
-<?php
-
 /**
  * Автор Олег Исаев
  * ВКонтакте: vk.com/id50416641
@@ -14,7 +12,7 @@ $pass = 'ff554';
 $encode = bel3::encode($pass, json_encode(['foo' => 'Hello World!!!']));
 
 // Сложное, 3-х символьный, 10-ти вариантный
-//$encode = bel3::encode($pass, json_encode(['foo' => 'Hello World!!!']), true);
+$encode = bel3::encode($pass, json_encode(['foo' => 'Hello World!!!']), true);
 
 var_dump($encode);
 
