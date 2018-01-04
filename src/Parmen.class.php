@@ -6,7 +6,7 @@
  * Skype: pandcar97
  */
 
-class bel3
+class Parmen
 {
 	public static function encode($password = '00000', $string = '', $complicated = false)
 	{
